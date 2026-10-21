@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Logo sementara: kotak biru dengan tanda tambah medis. Ganti dengan logo final. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="96dp"
+    android:height="96dp"
+    android:viewportWidth="96"
+    android:viewportHeight="96">
+    <path
+        android:fillColor="@color/blue_primary"
+        android:pathData="M24,0 H72 A24,24 0 0 1 96,24 V72 A24,24 0 0 1 72,96 H24 A24,24 0 0 1 0,72 V24 A24,24 0 0 1 24,0 Z" />
+    <path
+        android:fillColor="@color/white"
+        android:pathData="M42,22 H54 V42 H74 V54 H54 V74 H42 V54 H22 V42 H42 Z" />
+</vector>
