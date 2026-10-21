@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Riwayat Kesehatan (rekam medis dari layanan kesehatan) -->
+    <string name="riwayat_title">Riwayat Kesehatan</string>
+    <string name="riwayat_subtitle">Catatan pemeriksaan sebelumnya</string>
+    <string name="riwayat_label_diagnosis">Diagnosa Pelayanan</string>
+    <string name="riwayat_label_complaint">Keluhan</string>
+    <string name="riwayat_label_medicine">Obat</string>
+    <string name="riwayat_empty">Belum ada riwayat pemeriksaan</string>
+    <string name="riwayat_error">Riwayat gagal dimuat</string>
+    <string name="riwayat_retry">Coba lagi</string>
+</resources>
