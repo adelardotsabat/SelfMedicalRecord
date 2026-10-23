@@ -29,6 +29,11 @@ class FakeAuthRepository : AuthRepository {
         return Result.success(Unit)
     }
 
+    override suspend fun requestPasswordReset(email: String): Result<Unit> {
+        delay(FAKE_LATENCY_MS)
+        return Result.success(Unit)
+    }
+
     private companion object {
         const val FAKE_LATENCY_MS = 800L
         const val DEMO_WRONG_PASSWORD = "salah"

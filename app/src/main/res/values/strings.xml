@@ -33,6 +33,9 @@
         <item>@string/gender_female</item>
     </string-array>
 
+    <!-- Welcome -->
+    <string name="welcome_subtitle">Silakan pilih metode masuk untuk memulai mengakses</string>
+
     <!-- Login -->
     <string name="login_title">Selamat Datang Kembali!</string>
     <string name="login_forgot_password">Lupa Kata Sandi?</string>
