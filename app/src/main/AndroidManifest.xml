@@ -40,6 +40,10 @@
             android:windowSoftInputMode="adjustResize" />
 
         <activity
+            android:name=".ui.result.HasilBmiActivity"
+            android:exported="false" />
+
+        <activity
             android:name=".MainActivity"
             android:exported="false"
             android:windowSoftInputMode="adjustResize" />
