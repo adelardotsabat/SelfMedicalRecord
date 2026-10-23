@@ -74,7 +74,7 @@ class ForgotPasswordActivity : AppCompatActivity() {
             .setTitle(R.string.forgot_sent_title)
             .setMessage(getString(R.string.forgot_sent_message, email))
             .setCancelable(false)
-            .setPositiveButton(R.string.action_ok) { _, _ -> finish() }
+            .setPositiveButton(R.string.forgot_ok) { _, _ -> finish() }
             .show()
     }
 
