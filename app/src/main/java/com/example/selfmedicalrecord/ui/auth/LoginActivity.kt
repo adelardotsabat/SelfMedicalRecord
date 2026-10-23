@@ -62,8 +62,12 @@ class LoginActivity : AppCompatActivity() {
             startActivity(Intent(this, RegisterActivity::class.java))
         }
 
+        binding.tvForgotPassword.setOnClickListener {
+            val intent = Intent(this, ForgotPasswordActivity::class.java)
+                .putExtra(ForgotPasswordActivity.EXTRA_EMAIL, binding.etEmail.text?.toString().orEmpty())
+            startActivity(intent)
+        }
         // Belum ada layarnya; lihat daftar pertanyaan terbuka di PR.
-        binding.tvForgotPassword.setOnClickListener { showComingSoon() }
         binding.btnGoogle.setOnClickListener { showComingSoon() }
     }
 

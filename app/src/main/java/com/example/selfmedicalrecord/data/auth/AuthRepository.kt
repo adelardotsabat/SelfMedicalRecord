@@ -14,6 +14,9 @@ interface AuthRepository {
 
     /** Langkah 2 register: melengkapi data diri pasien. */
     suspend fun saveProfile(profile: PatientProfile): Result<Unit>
+
+    /** Meminta tautan pengaturan ulang kata sandi dikirim ke [email]. */
+    suspend fun requestPasswordReset(email: String): Result<Unit>
 }
 
 data class PatientProfile(
