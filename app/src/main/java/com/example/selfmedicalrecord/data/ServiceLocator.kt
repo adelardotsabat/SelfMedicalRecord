@@ -1,5 +1,7 @@
 package com.example.selfmedicalrecord.data
 
+import com.example.selfmedicalrecord.data.food.FakeFoodCalorieRepository
+import com.example.selfmedicalrecord.data.food.FoodCalorieRepository
 import com.example.selfmedicalrecord.data.health.FakeHealthRepository
 import com.example.selfmedicalrecord.data.health.HealthRepository
 
@@ -9,4 +11,5 @@ import com.example.selfmedicalrecord.data.health.HealthRepository
  */
 object ServiceLocator {
     val healthRepository: HealthRepository by lazy { FakeHealthRepository(seedDemoData = true) }
+    val foodCalorieRepository: FoodCalorieRepository by lazy { FakeFoodCalorieRepository() }
 }
