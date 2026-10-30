@@ -17,6 +17,12 @@ interface AuthRepository {
 
     /** Meminta tautan pengaturan ulang kata sandi dikirim ke [email]. */
     suspend fun requestPasswordReset(email: String): Result<Unit>
+
+    /** Mengganti kata sandi saat sudah masuk. Gagal jika [currentPassword] salah. */
+    suspend fun changePassword(currentPassword: String, newPassword: String): Result<Unit>
+
+    /** Keluar dari akun. Kelak: hapus token tersimpan dan beri tahu server. */
+    suspend fun logout(): Result<Unit>
 }
 
 data class PatientProfile(

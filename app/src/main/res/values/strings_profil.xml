@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Profil -->
+    <string name="profil_title">Profil</string>
+    <string name="profil_default_name">Pengguna</string>
+    <string name="profil_section_account">Akun</string>
+    <string name="profil_section_support">Dukungan</string>
+    <string name="profil_menu_manage">Kelola Profil</string>
+    <string name="profil_menu_security">Kata Sandi &amp; Keamanan</string>
+    <string name="profil_menu_help">Pusat Bantuan</string>
+    <string name="profil_logout">Keluar</string>
+    <string name="profil_logout_title">Keluar dari akun?</string>
+    <string name="profil_logout_message">Anda perlu masuk lagi untuk mengakses data Anda.</string>
+    <string name="profil_cancel">Batal</string>
+
+    <!-- Kelola Profil -->
+    <string name="manage_title">Kelola Profil</string>
+    <string name="manage_change_photo">Ubah Foto</string>
+    <string name="manage_label_address">Alamat</string>
+    <string name="manage_hint_address">Masukkan alamat</string>
+    <string name="manage_save">Simpan Perubahan</string>
+    <string name="manage_saved">Perubahan berhasil disimpan</string>
+    <string name="manage_save_failed">Perubahan gagal disimpan. Coba lagi</string>
+
+    <!-- Kata Sandi dan Keamanan -->
+    <string name="security_title">Kata Sandi &amp; Keamanan</string>
+    <string name="security_subtitle">Perbarui kata sandi untuk menjaga akses ke akun Anda.</string>
+    <string name="security_label_current">Kata Sandi Saat Ini</string>
+    <string name="security_label_new">Kata Sandi Baru</string>
+    <string name="security_label_confirm">Konfirmasi Kata Sandi Baru</string>
+    <string name="security_hint_current">Masukkan kata sandi saat ini</string>
+    <string name="security_hint_new">Masukkan kata sandi baru</string>
+    <string name="security_hint_confirm">Masukkan kembali kata sandi baru</string>
+    <string name="security_helper_min_length">Gunakan minimal 8 karakter.</string>
+    <string name="security_save">Simpan Kata Sandi</string>
+    <string name="security_saved">Kata sandi berhasil diubah</string>
+    <string name="security_current_wrong">Kata sandi saat ini salah</string>
+    <string name="security_failed">Kata sandi gagal diubah. Coba lagi</string>
+
+    <!-- Pusat Bantuan -->
+    <string name="help_title">Pusat Bantuan</string>
+    <string name="help_subtitle">Temukan panduan penggunaan aplikasi dan jawaban atas pertanyaan Anda.</string>
+    <string name="help_search_hint">Cari bantuan atau pertanyaan</string>
+    <string name="help_faq_heading">Pertanyaan Umum</string>
+    <string name="help_empty">Tidak ada pertanyaan yang cocok</string>
+    <string name="help_need_title">Masih membutuhkan bantuan?</string>
+    <string name="help_need_message">Sampaikan kendala Anda melalui menu bantuan.</string>
+    <string name="help_contact">Hubungi Bantuan</string>
+    <string name="faq_q1">Bagaimana cara mengubah profil?</string>
+    <string name="faq_a1">Buka Profil, pilih Kelola Profil, lalu ubah data yang diperlukan. Ketuk Simpan Perubahan untuk menyimpan data Anda.</string>
+    <string name="faq_q2">Bagaimana mencatat BB/TB dan tensi?</string>
+    <string name="faq_a2">Buka tab Catat, pilih BMI atau Tensi, isi tanggal dan angkanya, lalu ketuk Hitung BMI atau Simpan.</string>
+    <string name="faq_q3">Di mana melihat riwayat kesehatan?</string>
+    <string name="faq_a3">Buka tab Riwayat untuk melihat catatan pemeriksaan sebelumnya, diurutkan dari yang terbaru.</string>
+    <string name="faq_q4">Bagaimana jika lupa kata sandi?</string>
+    <string name="faq_a4">Di halaman Masuk, ketuk Lupa Kata Sandi, masukkan email terdaftar, lalu ikuti tautan yang dikirim ke email Anda.</string>
+</resources>
